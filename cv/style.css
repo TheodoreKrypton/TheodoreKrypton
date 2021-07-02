@@ -1,0 +1,73 @@
+html {
+  font-family: 'Cambria', Arial, Times, serif;
+  font-size: 15px;
+}
+
+body {
+  height: 842px;
+  width: 595px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#head {
+  text-align: center;
+  display: flex;
+}
+
+#name {
+  font-size: 30px;
+  font-weight: bold;
+  flex: 50%;
+  text-align: left;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+#contact {
+  flex: 50%;
+  text-align: right;
+}
+
+.section-head {
+  font-size: 20px;
+  font-weight: bold;
+  overflow:hidden; 
+  white-space:nowrap;
+}
+
+hr {
+  display:inline-block; 
+  width:100%;
+  border: 0.5px solid black;
+}
+
+.plain-text {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+ul {
+  font-size: fit-height;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  font-style: italic;
+}
+
+.clear {
+  clear: both;
+  height:1px;
+  margin-top:-1px;
+  overflow:hidden;
+}
+
+.italic {
+  font-style: italic;
+}
